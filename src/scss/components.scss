@@ -1,0 +1,12 @@
+.btn-default {
+  outline: none;
+  font-family: Gotham Book;
+  color: white;
+  background: $green-primary;
+
+  &:hover {
+    border: 1px $green-primary solid;
+    background: none;
+    color: black;
+  }
+}

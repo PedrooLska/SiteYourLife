@@ -19,6 +19,18 @@
   background: #f5f6f7;
 }
 
+.btn-default {
+  outline: none;
+  font-family: Gotham Book;
+  color: white;
+  background: #16a085;
+}
+.btn-default:hover {
+  border: 1px #16a085 solid;
+  background: none;
+  color: black;
+}
+
 * {
   box-sizing: border-box;
 }
