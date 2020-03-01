@@ -1,4 +1,4 @@
-@import "../assets/fonts/fonts.css";
+// FORMATTER FONT TITLE/TEXT
 .title {
   font-family: Gotham Bold;
 }
@@ -7,20 +7,16 @@
   font-family: Gotham Book;
 }
 
+// TEXT COLOR
 .text-green {
-  color: #16a085;
+  color: $green-primary;
 }
 
 .text-white {
   color: white;
 }
 
+// BACKGROUND GRAY SECTION
 .backgroundgray {
-  background: #f5f6f7;
+  background: $gray-primary;
 }
-
-* {
-  box-sizing: border-box;
-}
-
-/*# sourceMappingURL=main.css.map */
