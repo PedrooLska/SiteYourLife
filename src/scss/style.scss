@@ -1,0 +1,92 @@
+// Main Section
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  background: url(../assets/images/bg.png) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+
+  .main__text h1 {
+    text-transform: uppercase;
+  }
+
+  .main__nav ul li a,
+  .main__socialmedia ul li a {
+    color: white;
+  }
+}
+
+// Subscribe Section
+.subscribe {
+  display: flex;
+  align-items: center;
+  background: url(../assets/images/bg-subscribre.png) center no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+  h3 {
+    text-transform: uppercase;
+  }
+
+  input {
+    padding: 10px 50px 9px 10px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+
+    &:focus {
+      background: $gray-primary;
+    }
+
+    &::placeholder {
+      color: black;
+    }
+  }
+
+  span {
+    padding: 11px 15px;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    background: $green-primary;
+
+    a {
+      color: white;
+      font-size: 20px;
+      text-decoration: none;
+    }
+  }
+}
+
+// Download Section
+.download {
+  button {
+    padding: 13px 60px 7px 15px;
+    border-radius: 3px 0 0 3px;
+    color: white;
+    border: none;
+    background: $green-secondary;
+    font-family: Gotham Bold;
+  }
+
+  span {
+    padding: 13px 15px 10px;
+    background: $green-primary;
+
+    a {
+      color: white;
+      font-size: 20px;
+      text-decoration: none;
+    }
+  }
+}
+
+// Footer Section
+.footer {
+  .footer__text {
+    span {
+      color: #16a085;
+    }
+  }
+}
