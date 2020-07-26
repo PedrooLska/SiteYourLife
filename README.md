@@ -5,7 +5,7 @@ Projeto desenvolvido para demonstrar meus conhecimentos em determinadas tecnolog
 
 :white_check_mark: - HTML5 
 
-:white_check_mark: - CSS(Architecture BEM)
+:white_check_mark: - CSS (BEM Architecture)
 
 :white_check_mark: - SCSS
 
